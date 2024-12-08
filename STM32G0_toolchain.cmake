@@ -1,4 +1,8 @@
-SET(CMAKE_SYSTEM arm-cortex-m0plus)
+# Set the C and C++ standards
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+set(CMAKE_SYSTEM arm-cortex-m0plus)
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR cortex-m0plus)
 
